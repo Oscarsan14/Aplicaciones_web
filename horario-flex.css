@@ -1,47 +1,64 @@
-.flex-container {
+.cajas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #0772ff;
+    background-color: #ff7707;
+    border: 1px solid #000;
     align-items: flex-start;
     margin: 0px;
     width: 100%;
     max-width: 1400px;
 }
 
-.caja{
+.caja-grande{
     flex-wrap: wrap;
     border: 1px solid #000;
-}
-
-.cajagrande {
-    flex-wrap: wrap;
     width: calc(20% - 2px);
-}
-
-.cajalarga{
-    flex-wrap: wrap;
- 
-}
-
-.mini-cajas{
-    display: flex;
-    overflow: auto;
-}
-
-
-.cajapequena{ 
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
-    width: 20%;
-}
-
-.horas{
-    display: flex;
-    flex-direction: column;
+    height: 40px
 }
 
 .estilo{
     width: 80%;
+}
+
+.caja-larga{
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.dias{
+    display: flex;
+}
+
+.dia{
+    border: 1px solid #000;
+    text-align: center;
+    width: 100%;
+}
+
+.hora{
+    border: 1px solid #000;
+    width: calc(20% - 2px);
+    
+}
+
+.servicios{
+    border: 1px solid #000;
+    width: calc(16% - 2px);
+    height: 40px;
+
+}
+
+.seguridad{
+    border: 1px solid #000;
+    width: calc(16% - 2px);
+    height: 40px;
+
+}
+
+.sistemas{
+    border: 1px solid #000;
+    width: calc(16% - 2px);
+    height: 40px;
+
 }
