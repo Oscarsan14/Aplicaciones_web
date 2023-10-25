@@ -1,64 +1,118 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 .cajas{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #ff7707;
     border: 1px solid #000;
-    align-items: flex-start;
-    margin: 0px;
-    width: 100%;
-    max-width: 1400px;
+    flex-flow: column wrap;
+}
+
+.titulo{
+    flex-flow: row wrap;
+    justify-content: left;
+    display: flex;
 }
 
 .caja-grande{
-    flex-wrap: wrap;
+    flex: 1;
     border: 1px solid #000;
-    width: calc(20% - 2px);
-    height: 40px
+    padding: 10px;
 }
 
-.estilo{
-    width: 80%;
+.vacio-horario{
+    flex: 6;
+    flex-flow: row wrap;
 }
 
 .caja-larga{
     border: 1px solid #000;
-    width: 100%;
+    padding: 10px;
 }
 
-.dias{
+.vacio-largo{
     display: flex;
+    flex-flow: row;
 }
 
 .dia{
+    flex: auto;
     border: 1px solid #000;
-    text-align: center;
-    width: 100%;
+    padding: 10px;
+    height: auto;
 }
 
-.hora{
+.clase{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hora-a{
+    flex: 1;
     border: 1px solid #000;
-    width: calc(20% - 2px);
-    
+    text-align: center;
+    margin: 0 auto;
+    height: 24px;
+}
+
+.hora-b{
+    border: 1px solid #000;
+    margin: 7px auto;
+    height: 24px;
+}
+
+.doble{
+    flex: 1;
+    border: 1px solid #000;
+    text-align-last: center;
+    height: 50px;
+}
+
+.individual {
+    flex: 1;
+    border: 1px solid #000;
+    margin: 6px 1px;
+    height: 25px; 
+}
+
+
+.patio{
+    flex: 5;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1px 1px;
+    height: 24px;
+}
+
+@media (max-width: 400px) {
+
+    .vacio-largo{
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
 
 .servicios{
-    border: 1px solid #000;
-    width: calc(16% - 2px);
-    height: 40px;
+    background-color: #f31c1c;
+    color: #00fff2;
+}
 
+.aplicaciones{
+    background-color: #71df3e;
+    color: #4400ff;
 }
 
 .seguridad{
-    border: 1px solid #000;
-    width: calc(16% - 2px);
-    height: 40px;
-
+    background-color: #4400ff;
+    color: #71df3e;
 }
 
 .sistemas{
-    border: 1px solid #000;
-    width: calc(16% - 2px);
-    height: 40px;
+    background-color: #ff00f2;
+    color: #f31c1c;
+}
 
+.eie{
+    background-color: #ff6600;
+    color: #1b1b1b;
 }
