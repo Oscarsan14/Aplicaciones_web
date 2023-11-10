@@ -1,0 +1,34 @@
+.Servicios{
+    background-color: #f31c1c;
+    color: #00fff2;
+}
+
+.Aplicaciones{
+    background-color: #71df3e;
+    color: #4400ff;
+}
+
+.Seguridad{
+    background-color: #4400ff;
+    color: #71df3e;
+}
+
+.Sistemas{
+    background-color: #ff00f2;
+    color: #f31c1c;
+}
+
+.EIE{
+    background-color: #ff6600;
+    color: #1b1b1b;
+}
+
+.Web{
+    background-color: #00fff2;
+    color: #00ff4c;
+
+}
+
+table, th, td{
+    border: 1px solid #000000
+}
